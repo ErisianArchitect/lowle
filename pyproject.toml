@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "lowle"
+version = "1.0.0"
+dependencies = [
+    # "jinja2>=3.1.6,<3.2.0",
+    # "pathspec>=0.12.1,<0.13.0",
+    # "GitPython>=3.1.44,<3.2.0",
+]
+
+# [project.scripts]
+# borgo = "borgo.command:main"
+
+[tool.setuptools]
+packages = ['lowle']
