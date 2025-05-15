@@ -5,6 +5,8 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "lowle"
 version = "1.0.0"
+readme = "README.md"
+license = { file = "LICENSE" }
 dependencies = [
     # "jinja2>=3.1.6,<3.2.0",
     # "pathspec>=0.12.1,<0.13.0",
